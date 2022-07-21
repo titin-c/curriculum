@@ -1439,7 +1439,7 @@ form .check-block label{
 	top: 1px;
 	width: 20px;
 	height: 24px;
-	background: url('../images/resource/icons/orange/check-2.png') left center no-repeat;
+	background: url('../images/resource/icons/pink/check-2.png') left center no-repeat;
 	background-size: auto 18px;
 	opacity: 1;
 	-moz-transition:all 0.3s ease;
@@ -2225,7 +2225,7 @@ a.link{color: #f73859;}
 	top: 1px;
 	width: 20px;
 	height: 24px;
-	background: url('../images/resource/icons/orange/check-2.png') left center no-repeat;
+	background: url('../images/resource/icons/pink/check-2.png') left center no-repeat;
 	background-size: auto 18px;
 	opacity: 1;
 	-moz-transition:all 0.3s ease;
@@ -2960,7 +2960,7 @@ a.link{color: #f73859;}
 	top: 1px;
 	width: 20px;
 	height: 24px;
-	background: url('../images/resource/icons/orange/check-2.png') left center no-repeat;
+	background: url('../images/resource/icons/pink/check-2.png') left center no-repeat;
 	background-size: auto 18px;
 	opacity: 1;
 }
