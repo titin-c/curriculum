@@ -1427,16 +1427,16 @@ form .check-block label{
 
 .expertise-column ul li{
 	position: relative;
-	line-height: 24px;
+	line-height: 17px;
 	padding-left: 28px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .expertise-column ul li:before{
 	content: '';
 	position: absolute;
 	left: 0px;
-	top: 1px;
+	top: -1px;
 	width: 20px;
 	height: 24px;
 	background: url('../images/resource/icons/pink/check-2.png') left center no-repeat;
