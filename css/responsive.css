@@ -236,6 +236,12 @@
 	.site-container .page-title.sec-title h1{
 		font-size: 22px;
 	}
+	.site-container .page-title {
+		padding: 50px 25px 0;
+	}
+	.site-container .page-title h1 span {
+		line-height: 24px;
+	  }
 }
 
 @media only screen and (max-width: 599px){
@@ -266,6 +272,9 @@
 	.resume-content .award-block .inner-box{
 		padding-left: 40px;
 	}
+	.resume-content .awards .main-title, .resume-content .education .main-title {
+		line-height: 20px;
+	  }
 
 	.resume-content .expertise-block .inner-box,
 	.resume-content .edu-block .inner-box{
