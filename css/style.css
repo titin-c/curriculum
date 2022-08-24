@@ -1226,6 +1226,8 @@ form .check-block label{
 	position: relative;
 	padding: 50px 50px 0;
 	background: #f4f4f4;
+	display: flex;
+	justify-content: space-between;
 }
 
 .site-container .page-title.sec-title{
@@ -1252,7 +1254,17 @@ form .check-block label{
 	line-height: 42px;
 	color: #f73859;
 }
-
+.volver-work {
+	color: #fff;
+	background: #f73859;
+	display: block;
+	padding: 12px 20px;
+	text-transform: uppercase;
+  }
+  .volver-work:hover {
+	color: #f73859;
+	background: #fff;
+  }
 .home-content{
 	position: relative;
 	padding-bottom: 20px;
