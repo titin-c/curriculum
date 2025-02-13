@@ -1230,7 +1230,8 @@ form .check-block label{
 	background: #f4f4f4;
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: center;
+	gap: 20px;
 }
 
 .site-container .page-title.sec-title{
