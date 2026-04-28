@@ -367,7 +367,7 @@
                                             <!--Bloque-->
                                             <div class="award-block col-lg-12 col-md-12 col-sm-12">
                                                 <div class="inner-box">
-                                                    <div class="date"><span>2018 - <b id="current-year"></b></span></div>
+                                                    <div class="date"><span>2018 - <b class="current-year"></b></span></div>
                                                     <h4>UX / UI Designer Senior</h4>
                                                     <div class="text">
                                                         Diseño y documentación del <strong>Design System</strong>
@@ -657,7 +657,7 @@
                                             <!--Block-->
                                             <div class="edu-block col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                                 <div class="inner-box">
-                                                    <div class="date"><span>2024 - <b id="current-year"></b></span></div>
+                                                    <div class="date"><span>2024 - <b class="current-year"></b></span></div>
                                                     <h4>UX/UI Designer Senior</h4>
                                                     <h3>iNuba</h3>
                                                     <div class="text">
@@ -1663,7 +1663,9 @@
         <script src="js/appear.js"></script>
         <script src="js/custom-script.js"></script>
         <script>
-          document.getElementById("current-year").textContent = new Date().getFullYear();
+         document.querySelectorAll(".current-year").forEach(el => {
+          el.textContent = new Date().getFullYear();
+        });
         </script>
 </body>
 
